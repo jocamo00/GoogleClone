@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
 button {
     all: unset;
     background-color: blue;
@@ -41,8 +48,23 @@ nav > div:first-child {
    min-width: 200px;
 }
 
-nav > div:first-child {
-    min-width: 200px;
+nav > div:last-child {
+    min-width: 300px;
+ }
+
+ section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 30px;
+ }
+
+ section > input {
+     margin-top: 20px;
+ }
+
+ footer {
+
  }
 
 
